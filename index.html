@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tips Daily - Your Source for Simple Technology Guides</title>
+    <meta name="description" content="Easy-to-follow guides and tips for understanding everyday technology. Learn how to solve common tech problems.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            text-align: center;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+        }
+        
+        .feature-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #3498db;
+        }
+        
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .article-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-img {
+            height: 200px;
+            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+        
+        .card-content {
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Tips Daily</h1>
+        <p>Simplifying Technology for Everyone</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="how-to-fix.html">Phone Fixes</a></li>
+            <li><a href="best-apps.html">Best Apps</a></li>
+            <li><a href="wifi-tips.html">WiFi Tips</a></li>
+            <li><a href="android-vs-ios.html">Android vs iOS</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <h2>Welcome to Tech Tips Daily</h2>
+            <p>Your ultimate guide to understanding technology easily</p>
+        </div>
+
+        <article>
+            <div class="feature-box">
+                <h2>🌟 Why Choose Us?</h2>
+                <p>We break down complex tech concepts into simple, actionable advice that anyone can follow. No technical jargon, just practical solutions.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>🚀 5 Easy Ways to Speed Up Your Phone Today</h3>
+                <p>Is your phone feeling slow? You don't need to be an expert to fix it. Here are five simple steps you can try right now:</p>
+                <ol>
+                    <li><strong>Clear App Cache:</strong> Go to Settings > Storage > Cached data and clear it. This is safe and frees up space.</li>
+                    <li><strong>Restart Your Phone:</strong> It's cliché for a reason. Turning it off and on again can solve many minor issues.</li>
+                    <li><strong>Check for Updates:</strong> Outdated software can cause performance problems. Make sure your OS and apps are up to date.</li>
+                    <li><strong>Manage Your Storage:</strong> Delete old photos, videos, and apps you no longer use. A full storage can slow down your device.</li>
+                    <li><strong>Disable Unused Features:</strong> Turn off Bluetooth, GPS, and Wi-Fi when you're not using them.</li>
+                </ol>
+                <p>By following these tips, you should notice a significant improvement in your phone's performance.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>📶 Understanding Wi-Fi vs. Mobile Data</h3>
+                <p>Many people use these terms interchangeably, but they are different:</p>
+                <ul>
+                    <li><strong>Wi-Fi:</strong> Connects through a router (home/cafe), usually faster, doesn't use mobile data</li>
+                    <li><strong>Mobile Data:</strong> Uses cellular networks (4G/5G), works anywhere with signal, uses data plan</li>
+                </ul>
+                <p>Knowing when to use which can help you save money and battery life!</p>
+            </div>
+
+            <h2 style="text-align: center; margin: 3rem 0 2rem 0; color: #2c3e50;">📚 Latest Articles</h2>
+            
+            <div class="article-grid">
+                <div class="article-card">
+                    <div class="card-img">📱</div>
+                    <div class="card-content">
+                        <h3>Phone Fixes</h3>
+                        <p>Learn how to solve common phone problems with easy step-by-step guides.</p>
+                        <a href="how-to-fix.html">Read More →</a>
+                    </div>
+                </div>
+                
+                <div class="article-card">
+                    <div class="card-img">📲</div>
+                    <div class="card-content">
+                        <h3>Best Apps 2024</h3>
+                        <p>Discover must-have mobile apps for productivity, health, and entertainment.</p>
+                        <a href="best-apps.html">Read More →</a>
+                    </div>
+                </div>
+                
+                <div class="article-card">
+                    <div class="card-img">🌐</div>
+                    <div class="card-content">
+                        <h3>WiFi Tips</h3>
+                        <p>Boost your internet speed with these practical WiFi improvement tips.</p>
+                        <a href="wifi-tips.html">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tech Tips Daily. All Rights Reserved.</p>
+        <p>Helping you navigate the digital world with confidence</p>
+    </footer>
+</body>
+</html>
